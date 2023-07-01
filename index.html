@@ -90,12 +90,22 @@
 
 
     <!-- NAVBAR    -->
-    <nav class="navbar bg-body-tertiary text-white"  style="background-color: rgb(67, 67, 254);">
-      <form class="container-fluid justify-content-start">
-        <button class="btn btn-outline-success me-2" style="background-color: brown;" type="button">
-        <a href="https://intl.startrek.com/" target="_blank">Sitio Oficial de StarTrek.com</a></button>
-      </form>
-    </nav>
+    
+
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      </div> 
+    </div>
      
 
     <!----->
